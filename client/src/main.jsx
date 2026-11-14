@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { inject } from '@vercel/analytics'
 import App from './App.jsx'
 import Landing from './landing/Landing.jsx'
 import Legal from './landing/Legal.jsx'
 import ErrorBoundary from './components/ErrorBoundary.jsx'
 import './styles.css'
+
+// Visitor counts (Vercel Analytics, no cookies)
+inject()
 
 // Tiny router: "/" landing, "/app" editor, "/privacy" and "/terms" legal pages.
 const path = window.location.pathname.replace(/\/+$/, '') || '/'
