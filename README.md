@@ -1,6 +1,6 @@
 
 <div align="center">
-<img width="80" height="80" alt="docume (3)-Photoroom" src="https://github.com/user-attachments/assets/69d2b46d-01d6-4d18-a910-81d133e7ab69" />
+<img src="docs/logo.png" alt="Docume landing page" width="80" />
   
 # Docume
 
