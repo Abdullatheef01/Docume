@@ -11,9 +11,11 @@ export function DemoSection() {
           </p></div><div className="mx-auto mt-12 max-w-4xl"><div className="card-surface-accent relative overflow-hidden rounded-[28px] p-3 sm:p-4"><div className="relative aspect-video w-full overflow-hidden rounded-[20px] border border-white/[0.08] bg-black"><video
     ref={videoRef}
     className="h-full w-full object-contain"
-    controls
+    autoPlay
+    muted
+    loop
     playsInline
-    preload="metadata"
+    preload="auto"
     poster="/assets/docume-demo-poster.jpg"
     aria-label="Docume promo video"
   ><source src="/assets/docume-demo.mp4" type="video/mp4" />Your browser does not support the video tag.</video></div><p className="mt-4 mb-1 text-center text-sm font-medium text-zinc-300">
