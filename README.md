@@ -234,12 +234,9 @@ Set the OAuth callback URLs to `https://<your-domain>/api/auth/google/callback` 
 - [ ] Account export and delete
 - [ ] Error monitoring and CI
 
-## Author
+## License
 
-**Abdul Latheef J**
-
-- GitHub: [@Abdullatheef01](https://github.com/Abdullatheef01)
-- LinkedIn: [abdul-latheef-j](https://www.linkedin.com/in/abdul-latheef-j-5576752b9)
+Licensed under the [GNU AGPL v3.0](LICENSE).
 
 ---
 
